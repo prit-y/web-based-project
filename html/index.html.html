@@ -1,0 +1,232 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css\c.css"/>
+<style>
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 8px 10px 8px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin-left:119px;
+ 
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+<div id="outer">
+<div id="logo">
+
+<div id="logo1"></br><b><h style ="margin-left:12px; margin-top:25px; font-family:Cooper;">VIRTUAL</b><b style="color:	#0080ff"> ASSESSMENT</b></h>
+<u style="margin-left:40px; font-size:14px; font-family:Gabriola;">Reaching out to everyone</u>
+</div>
+
+
+<div id="logo2">
+
+    
+	<div class="topnav" id="myTopnav">
+  <a href="home.html" class="active">Home</a>
+  <a href="exam.html">Exam</a>
+  <a href="contect.html">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="result.html">Result</a>
+      <a href="teacherlogin.html">Teachers login</a>
+      <a href="studentlogin.html">Student login</a>
+    </div>
+  </div> 
+  <a href="about.html">About</a>
+ 
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+
+</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="background-color:#8000f"><a href="registration.html">REGISTRATION</a></button>
+
+
+</div>
+
+</div>
+<div id="menu">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="img\ppp.jpg" style="width:100%; height:250px;">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="img\new1.jpg" style="width:100%; height:250px;">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="img\new2.jpg" style="width:100%; height:250px;">
+  
+</div>
+
+<div class="mySlides fade">
+  <img src="img\new3.jpg" style="width:100%; height:250px;">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+</div>
+
+
+
+
+<div id="slider">
+
+<div id="slide" style="text-align:center;padding-top:10px;color:#8881111;font-size:18px;font-weight:bold;background-color:white;">Experience Virtual Exams With Our Secure And Robust Examination Platform</div>
+<div id="slide1">
+<div id="slide2"><p style="text-align:center">Traditional Examination</p>
+&nbsp;&nbsp;&nbsp;&nbsp;<button style="border-radius: 12px; background-color:green; font-size:15px;color:white;">Administration</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="border-radius: 12px; background-color:blue;font-size:15px;color:white;">Test-taker</button><br/></br>
+
+<p>Creat Question Paper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reach Center @ Fixed
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date/Time </p>
+<p>physical Invigilation   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Taken Pen & Paper Exam</p>
+<p>Manual Grading &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  Results After Months</p>
+
+
+
+</div>
+
+<div id="slide3"><img src="img\ss.png" height="350px"; width="100"></div>
+
+<div id="slide4" style=" background-color:white;">
+<p style="text-align:center;">Online Examination</p>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<button style="border-radius: 12px; background-color:green; font-size:15px;color:white;">Administration</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button style="border-radius: 12px; background-color:blue;font-size:15px;color:white;">Test-taker</button><br/></br>
+
+
+<p>Configure Online Exam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Take Exam Any Time
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;, Any Where </p>
+<p>Online Invigilation<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; & Proctoring  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp;  Without Pen & </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paper Exam</p>
+<p>Automatic Grading &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Real-Time Results</p>
+
+
+</div>
+<img src="img\new.jpg" height="300px"; width="400">
+</div>
+
+</div>
+
+
+
+
+
+
+<div id="slider1">
+
+<div id="text" style="text-align:center;margin:auto;color:#8881111;font-size:35px;font-weight:bold">We Conduct The Virtual Semester Exam </div>
+<div id="text1">
+<div id="text2"><p style="margin:20px;color:#8881111;font-size:20px;font-weight:bold; font-family:Cooper">Semeter Exams Solution</p>
+<p style="margin:20px; font-family:Harlow Solid">Conduct Virtual Semester Examinations </p>
+<p style="margin:20px; font-family:Harlow Solid">With Proctoring Tools & Easy Management solilutions</p><br/>
+<p style="margin:20px; font-family:Harlow Solid">Conduct Virtual Semester Examinations </p>
+<p style="margin:20px; font-family:Harlow Solid">With Proctoring Tools & Easy Management solilutions</p>
+<a href=" studentlogin.html" style="margin:20px; font-family:Franklin Gothic">EXPLORE </a><br/>
+</div>
+
+
+
+<div id="text3"><img src="img\new2.jpg"/ height="350px;" width="400px;"></div>
+
+
+</div>
+<div id="footer"><br/><b style="color:white;">Copyright@2020-2021 All Rights Reseved  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;Powered by Pritee, sapana, vaishali and Ajay Mishra</b> </div>
+</div>
+
+</body></html>
